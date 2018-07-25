@@ -1,5 +1,6 @@
-package com.forezp.service;
+package com.forezp.web;
 
+import com.forezp.service.SchedualServiceHi;
 import org.springframework.stereotype.Component;
 
 /**
