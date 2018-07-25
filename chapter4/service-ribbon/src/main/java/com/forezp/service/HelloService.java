@@ -38,7 +38,7 @@ public class HelloService {
 
     @HystrixCommand(fallbackMethod = "hiError")
     public String hiService(String name) {
-        System.out.println("this is a ribbon");
+        System.out.println("this is a ribbon aaaa");
         return restTemplate.getForObject("http://SERVICE-HI/hi?name={1}", String.class, name);
     }
 
