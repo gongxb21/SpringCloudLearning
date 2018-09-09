@@ -7,15 +7,10 @@ server:
 
 spring:
   application:
-    name: service-hi
+    name: service-HI
   zipkin:
     base-url: http://localhost/9411
-
-#management:
-#  endpoints:
-#    web:
-#      exposure:
-#        include: "*"
-#      cors:
-#        allowed-origins: "*"
-#        allowed-methods: "*"
+  rabbitmq:
+    host: localhost
+    username: springcloud
+    password: 123456
